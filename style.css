@@ -1,0 +1,133 @@
+/*This is the background image  */
+body{
+    background-image:url(/images/white.jpg);
+    background-size: cover;
+    
+   
+}
+/*my nav bar styling */
+#navbar {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+  }
+  #navbar ul {
+    background-color: #f1f1e9;
+  }
+  #navbar li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    background-color: #f5f5f5;
+  }
+  #navbar li a {
+    display: block;
+    color: #4682B4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #navbar li a:hover:not(.active) {
+    background-color: #f1f1f1;
+  }
+  #navbar .active {
+    background-color: #f1f1f1;
+  }
+  #navheader {
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .center {
+    display: block;
+    margin-left: 4%;
+    margin-right: auto;
+    width: 50%;
+    float:inline-end;
+    display:inline-block;
+    vertical-align:top;
+    
+  }
+/* we can set the size of our picture */
+.center{
+    width: 500px;
+    height:520px
+}
+
+/*Dividing the page into sections*/ 
+
+div#main {
+border: solid 2px blue;
+margin-left: 100px;
+margin-right: 100px;
+min-height: 300px;
+}
+div#sidebar {
+background-color: #d8dfe7;
+width: 90px;
+position: absolute;
+top: 0px;
+min-height: 1025px;
+}
+
+
+div#footer {
+border: 2px solid red;
+margin-left: 100px;
+margin-right:100px;
+}
+div#sidebar2 {
+  background-color: #d8dfe7;
+  width: 90px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  min-height: 1025px;
+  }
+  div#footer {
+  border: 2px solid red;
+  }
+
+
+  /*Fade in image */
+  .center {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
